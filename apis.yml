@@ -1,8 +1,18 @@
 aid: hanover-park
 name: Hanover Park
-description: 'Hanover Park is a company surfaced as a portfolio company of emergence-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: enterprise-software. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Hanover Park is an AI-native ERP and fund administration platform for private
+  market investors, unifying fund accounting, portfolio intelligence, and the LP experience
+  in a single system of record. It pairs a proprietary general ledger, waterfall engine,
+  investor portal, and portfolio management layer with AI agents that read email, propose
+  journal entries, and extract portfolio updates, all reviewed by expert fund accountants.
+  The platform automates capital calls, cash reconciliation, general-ledger posting, KPI
+  collection, and reporting for venture capital, private equity, and other private-market
+  firms. Founded in 2024 and headquartered around a modern back-office thesis, Hanover Park
+  raised a $27M Series A led by Emergence Capital (with Lux Capital and Susa Ventures) and
+  has grown from $1B to $15B in assets under administration. The company is SOC 1 Type II
+  and SOC 2 Type II certified with a zero-trust, client-isolated AI architecture. No public
+  API or developer program is published at this time; the product is delivered as a
+  login-gated SaaS application.'
 url: https://raw.githubusercontent.com/api-evangelist/hanover-park/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +20,59 @@ x-backed-by:
 - emergence-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/1TZT96wosKi4ajg2rf9ZSAM8K74.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Enterprise Software
+- Fund Administration
+- Private Equity
+- Venture Capital
+- Fintech
+- Financial Operations
+- AI
+- ERP
+- Back Office
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://www.hanoverpark.com
+- type: Login
+  url: https://app.hanoverpark.com/login
+- type: Blog
+  url: https://www.hanoverpark.com/blog
+- type: Support
+  url: https://www.hanoverpark.com/contact
+- type: TermsOfService
+  url: https://www.hanoverpark.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.hanoverpark.com/privacy-policy
+- type: Compliance
+  url: https://www.hanoverpark.com/security
+- type: DomainSecurity
+  url: security/hanover-park-domain-security.yml
+- type: TrustCenter
+  url: security/hanover-park-trust-center.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
