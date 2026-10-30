@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Hanover Park is a company surfaced as a portfolio company of emergence-capital and added to the API Evangelist network as a stub for enrichment. Sector: enterprise-software. This profile is a lead awaiting the enrichment pipeline.
+Hanover Park is an AI-native ERP and fund administration platform for private market investors, unifying fund accounting, portfolio intelligence, and the LP experience in a single system of record. It pairs a proprietary general ledger, waterfall engine, investor portal, and portfolio management layer with AI agents that read email, propose journal entries, and extract portfolio updates, all reviewed by expert fund accountants. The platform automates capital calls, cash reconciliation, general-ledger posting, KPI collection, and reporting for venture capital, private equity, and other private-market firms. Founded in 2024 and headquartered around a modern back-office thesis, Hanover Park raised a $27M Series A led by Emergence Capital (with Lux Capital and Susa Ventures) and has grown from $1B to $15B in assets under administration. The company is SOC 1 Type II and SOC 2 Type II certified with a zero-trust, client-isolated AI architecture. No public API or developer program is published at this time; the product is delivered as a login-gated SaaS application.
 
-Backed by: emergence-capital
+**Areas:** Company · Enterprise Software · Fund Administration · Private Equity · Venture Capital · Fintech · Financial Operations · Artificial Intelligence · ERP · Back Office
+
+## Hanover Park on APIs.io
+
+Everything profiled for Hanover Park is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hanover-park/](https://apis.io/providers/hanover-park/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hanover Park Domain Security](https://apis.io/security/hanover-park/hanover-park-domain-security/)
+- [Hanover Park Trust Center](https://apis.io/security/hanover-park/hanover-park-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.hanoverpark.com)
+- [Support](https://www.hanoverpark.com/contact)
+- [Blog](https://www.hanoverpark.com/blog)
+- [Compliance](https://www.hanoverpark.com/security)
+- [Terms of service](https://www.hanoverpark.com/terms-of-service)
+- [Privacy policy](https://www.hanoverpark.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 15.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 43.4 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hanover-park/](https://apis.io/providers/hanover-park/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Hanover Park: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hanover-park/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
